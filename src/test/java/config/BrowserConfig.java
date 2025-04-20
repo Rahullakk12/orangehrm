@@ -10,7 +10,9 @@ public class BrowserConfig {
 	public WebDriver loadDriver() {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/test-data/chrome/chromedriver.exe");
 		driver = new ChromeDriver(); 
+
+		System.out.println("Adding Javba Related Scripts");
+
 		return driver;
 	}
-
 }
