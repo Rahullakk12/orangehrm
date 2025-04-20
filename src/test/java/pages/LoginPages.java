@@ -22,4 +22,8 @@ public class LoginPages {
 
 	}
 
+	public void TESTDASTA() {
+		driver.findElement(login).click();
+	}
+
 }
