@@ -19,7 +19,7 @@ public class LoginPages {
 		driver.findElement(password).sendKeys(pwd);
 
 		driver.findElement(login).click();
-
+		System.out.println("====================");
 	}
 
 }
